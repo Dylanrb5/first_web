@@ -28,6 +28,8 @@
 
         a {
             font-family: linkFonts;
+            text-decoration: underline;
+            font-size: 20px;
         }
 
         h1 {
@@ -86,6 +88,7 @@
             margin: 0;
             padding-bottom: 5px;
             list-style: none;
+            padding-top: 5px;
         }
 
         nav li
@@ -96,12 +99,12 @@
 
         .lefter
         {
-            padding-right: 52px;
+            padding-right: 86px;
         }
 
         .bigger
         {
-            font-size: 14px;
+            font-size: 18px;
             color: #9E1E34;
         }
 
