@@ -16,7 +16,7 @@
 
         a:link,
         a:visited {
-            text-decoration: none;
+            text-decoration: underline;
             color: #041811;
         }
 
@@ -29,7 +29,7 @@
         a {
             font-family: linkFonts;
             text-decoration: underline;
-            font-size: 20px;
+            
         }
 
         h1 {
@@ -78,7 +78,8 @@
         section
         {
 
-            padding: 0px;
+            padding-top: 1px;
+            padding-bottom: 1px;
             margin: 0px;
             /*background-color: lightslategrey;*/
         }
@@ -95,6 +96,7 @@
         {
             display: inline-block;
             text-shadow: 0px 1px #ff335579;
+            font-size: 20px;
         }
 
         .lefter
@@ -113,3 +115,35 @@
             margin-bottom: 25px;
         }
 
+        .other_pg
+        {
+            background-image: url(scary_bkg.jpg);
+        }
+
+        .other_section
+        {
+            background-color: rgba(220, 235, 235, 0.685);
+            padding-top: 1px;
+            padding-bottom: 1px;
+        }
+
+        #imadethis
+        {
+            background-color: rgba(240, 255, 255, 0.678);
+            padding-bottom: 5px;
+            padding-left: 8px;
+            padding-right: 8px;
+            border-radius: 7px;
+            border-width: 1px;
+            border-color: #041811;
+            border-style: groove;
+        }
+
+        /* #gif_section
+        {
+            display: flex;
+            width: 300px;
+            height: 100px;
+            background-color: #fffffb;
+            align-items: center;
+        }*/
